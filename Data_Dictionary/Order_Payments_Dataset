@@ -1,1 +1,8 @@
+### order_payments_dataset.csv
+**About:**  
+Payment transactions associated with orders.  
+
+- **Primary Key:** payment_id (with order_id as foreign key)  
+- **Relationships:** Links to `orders_dataset.csv` via order_id  
+- **Notes:** Some orders may have multiple payments (installments).  
 
