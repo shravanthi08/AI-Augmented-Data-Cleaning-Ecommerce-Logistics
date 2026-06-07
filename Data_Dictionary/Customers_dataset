@@ -1,1 +1,9 @@
+### customers_dataset.csv
+**About:**  
+This dataset contains customer demographic and location details.  
+It connects customers to their orders.  
+
+- **Primary Key:** customer_id  
+- **Relationships:** Links to `orders_dataset.csv` via customer_id  
+- **Notes:** Some customers may appear multiple times if they placed multiple orders.
 
