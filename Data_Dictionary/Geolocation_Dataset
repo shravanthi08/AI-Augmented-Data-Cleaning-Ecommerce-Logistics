@@ -1,1 +1,8 @@
+### geolocation_sample_dataset.csv
+**About:**  
+Maps customer and seller zip codes to city and state.  
+
+- **Primary Key:** zip_code_prefix  
+- **Relationships:** Links to `customers_dataset.csv` and `sellers_dataset.csv` via zip_code_prefix  
+- **Notes:** Some zip codes may be incomplete or duplicated.  
 
