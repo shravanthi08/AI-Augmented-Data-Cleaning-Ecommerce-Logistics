@@ -1,1 +1,8 @@
+### sellers_dataset.csv
+**About:**  
+Contains seller information including IDs and location details.  
+
+- **Primary Key:** seller_id  
+- **Relationships:** Links to `order_items_dataset.csv` via seller_id  
+- **Notes:** Check for duplicate seller IDs and missing location fields.  
 
