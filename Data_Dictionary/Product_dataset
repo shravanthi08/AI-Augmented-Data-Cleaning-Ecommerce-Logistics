@@ -1,1 +1,8 @@
 
+### products_dataset.csv
+**About:**  
+Contains product catalog details such as category, description length, and photo quantity.  
+
+- **Primary Key:** product_id  
+- **Relationships:** Links to `order_items_dataset.csv` via product_id  
+- **Notes:** Some products may have missing or inconsistent category names.  
