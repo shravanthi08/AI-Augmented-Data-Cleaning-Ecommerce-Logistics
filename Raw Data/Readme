@@ -1,1 +1,20 @@
+# Raw Data
 
+This folder contains the original dataset files used in the **AI-Augmented Data Cleaning & Validation Project**.  
+The files are kept in their raw form to ensure reproducibility and transparency.
+
+## Contents
+- **sellers_dataset.csv** → Seller information including IDs and location details.
+- **products_dataset.csv** → Product catalog with categories, descriptions, and identifiers.
+- **orders_dataset.csv** → Customer orders with timestamps, status, and unique order IDs.
+- **order_reviews_dataset.csv** → Customer feedback, ratings, and review comments linked to orders.
+- **order_payments_dataset.csv** → Payment transactions associated with orders (method, value, installments).
+- **order_items_dataset.csv** → Line‑item details for each order (product, seller, price, freight).
+- **geolocation_sample_dataset.csv** → Mapping of customer/seller locations to city, state, and postal codes.
+- **customers_dataset.csv** → Customer demographic and location details.
+- **Data_dictionary.xlsx** → Original data dictionary provided with the dataset, describing columns and relationships.
+
+## Notes
+- The dataset is used for **AI‑augmented cleaning and validation workflows**.  
+- Scripts in the `/scripts` folder are designed to process these raw files.  
+- The `Data_dictionary.xlsx` serves as a reference for column definitions and relationships.  
