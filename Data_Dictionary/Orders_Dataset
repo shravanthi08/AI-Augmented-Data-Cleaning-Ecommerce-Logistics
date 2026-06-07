@@ -1,1 +1,12 @@
 
+### orders_dataset.csv
+**About:**  
+This dataset contains customer orders, including purchase timestamps, delivery status, and unique order IDs.  
+It is the central table that connects to payments, items, and reviews.  
+
+- **Primary Key:** order_id  
+- **Relationships:**  
+  - Links to `order_items_dataset.csv` via order_id  
+  - Links to `order_payments_dataset.csv` via order_id  
+  - Links to `order_reviews_dataset.csv` via order_id  
+- **Notes:** Some orders have missing delivery timestamps (undelivered/canceled orders).
