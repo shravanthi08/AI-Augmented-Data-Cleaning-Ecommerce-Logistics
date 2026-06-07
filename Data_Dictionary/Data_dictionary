@@ -1,1 +1,7 @@
+### Data_dictionary.xlsx
+**About:**  
+Original reference file provided with the dataset.  
+
+- **Purpose:** Documents column definitions and relationships.  
+- **Usage:** Serves as a baseline for validating your own `data_dictionary.md`.  
 
