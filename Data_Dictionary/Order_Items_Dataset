@@ -1,1 +1,11 @@
 
+### order_items_dataset.csv
+**About:**  
+Line‑item details for each order, connecting products and sellers.  
+
+- **Primary Key:** order_item_id (with order_id as foreign key)  
+- **Relationships:**  
+  - Links to `orders_dataset.csv` via order_id  
+  - Links to `products_dataset.csv` via product_id  
+  - Links to `sellers_dataset.csv` via seller_id  
+- **Notes:** Freight values may vary; check for anomalies.
