@@ -1,1 +1,8 @@
+### order_reviews_dataset.csv
+**About:**  
+Customer feedback and ratings linked to orders.  
+
+- **Primary Key:** review_id  
+- **Relationships:** Links to `orders_dataset.csv` via order_id  
+- **Notes:** Some reviews may be missing comments or have neutral ratings.  
 
